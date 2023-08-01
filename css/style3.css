@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(233, 233, 233);
+
+}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+    margin: 0 10%;
+}
+header h2{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+}
+header ol{
+    margin: 0 20%;
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    height: 70px;
+}
+
+header ol li{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.gap{
+    height: 70px;
+}
+.aboutMe{
+    height: 500px;
+    display: flex;
+    padding: 0 10%;
+    
+}
+.aboutMe > section{
+    flex:1;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+.aboutMe > section > img{
+
+    height: 500px;
+    width: 500px;
+}

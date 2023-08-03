@@ -12,18 +12,22 @@ header{
     background-color: rgb(233, 233, 233);
     margin: 0 10%;
 }
+
 header h2{
     height: 70px;
     display: flex;
     align-items: center;
     padding-left: 15%;
+    font-family: 'Anton', sans-serif;
 }
+
 header ol{
     margin: 0 20%;
     list-style: none;
     display: flex;
     flex-grow: 1;
     height: 70px;
+
 }
 
 header ol li{
@@ -44,12 +48,24 @@ header ol li{
     
 }
 .aboutMe > section{
-    flex:1;
     background-color: rgb(233, 233, 233);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 100px;
+}
+
+
+.aboutMe > section > h1, .aboutMe > section > h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.aboutMe > section > span{
+    font-size: 25px;
+    font-style: bold;
 }
 .aboutMe > section > img{
 

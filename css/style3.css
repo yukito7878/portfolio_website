@@ -10,19 +10,20 @@ header{
     align-items: center;
     justify-content: center;
     background-color: rgb(233, 233, 233);
-    margin: 0 10%;
+    margin: 50px 10%;
 }
 
 header h2{
     height: 70px;
     display: flex;
     align-items: center;
-    padding-left: 15%;
+    padding: 0 15% 0 10%;
     font-family: 'Anton', sans-serif;
+    font-size: 50px;
 }
 
 header ol{
-    margin: 0 20%;
+    margin: 0 20% 0 10%;
     list-style: none;
     display: flex;
     flex-grow: 1;
@@ -36,15 +37,26 @@ header ol li{
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin: 0 15% 0 10%;
 }
 
-.gap{
-    height: 70px;
+header ol li a {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: rgb(166, 96, 232);
 }
+
+header ol li a:hover{
+    color: rgb(166, 96, 150);
+}
+
 .aboutMe{
     height: 500px;
     display: flex;
     padding: 0 10%;
+    margin-top: 70px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     
 }
 .aboutMe > section{
@@ -52,7 +64,7 @@ header ol li{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 100px;
+    padding: 0 0 0 8%;
 }
 
 
@@ -72,3 +84,17 @@ header ol li{
     height: 500px;
     width: 500px;
 }
+
+.aboutMe .leftSection button{
+    border: 5px solid black;
+    border-radius: 10%;
+    width: 170px;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(166, 96, 232);
+}
+
+.aboutMe .leftSection button:hover{
+    background-color: rgb(166, 164, 164);
+}
+
